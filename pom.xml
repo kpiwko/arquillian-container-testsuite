@@ -145,10 +145,7 @@
 
             <modules>
                 <module>test-arquillianresource</module>
-                <module>test-cdi</module>
-                <module>test-ejb</module>
                 <module>test-resource</module>
-                <module>test-ear</module>
             </modules>
         </profile>
 
@@ -178,10 +175,7 @@
 
             <modules>
                 <module>test-arquillianresource</module>
-                <module>test-cdi</module>
-                <module>test-ejb</module>
                 <module>test-resource</module>
-                <module>test-ear</module>
             </modules>
         </profile>
 
@@ -211,10 +205,7 @@
 
             <modules>
                 <module>test-arquillianresource</module>
-                <module>test-cdi</module>
-                <module>test-ejb</module>
                 <module>test-resource</module>
-                <module>test-ear</module>
             </modules>
         </profile>
     </profiles>
