@@ -11,7 +11,7 @@
 
     <artifactId>test-ejb</artifactId>
     <packaging>jar</packaging>
-    <name>Arquillian Container Testuite: Tests of WAR EJB deployment</name>
+    <name>Arquillian Container Testsuite: Tests of WAR EJB deployment</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

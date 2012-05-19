@@ -5,7 +5,7 @@
 
     <artifactId>test-ear</artifactId>
     <packaging>jar</packaging>
-    <name>Arquillian Container Testuite: Tests of EAR deployment</name>
+    <name>Arquillian Container Testsuite: Tests of EAR deployment</name>
 
     <parent>
         <groupId>org.jboss.arquillian.container.testsuite</groupId>

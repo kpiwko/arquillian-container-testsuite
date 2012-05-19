@@ -15,11 +15,11 @@ import java.io.PrintWriter;
  * </p>
  * <p/>
  * <p/>
- * The servlet is registered and mapped to /HelloServlet using the {@linkplain WebServlet
+ * The servlet is registered and mapped to /HelloServlet using the plain {@link WebServlet}
  *
  * @author Pete Muir
- * @HttpServlet}. The {@link HelloService} is injected by CDI.
- * </p>
+ * @HttpServlet . The {@link HelloService} is injected by CDI.
+ *              </p>
  */
 @SuppressWarnings("serial")
 @WebServlet("/HelloWorld")

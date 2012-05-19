@@ -5,7 +5,7 @@
 
     <artifactId>test-resource</artifactId>
     <packaging>jar</packaging>
-    <name>Arquillian Container Testuite: Tests of Resource injections</name>
+    <name>Arquillian Container Testsuite: Tests of Resource injections</name>
 
     <parent>
         <groupId>org.jboss.arquillian.container.testsuite</groupId>
