@@ -7,7 +7,7 @@
     <groupId>org.jboss.arquillian.container.testsuite</groupId>
     <artifactId>arquillian-container-testsuite</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <dependencyManagement>
         <dependencies>
