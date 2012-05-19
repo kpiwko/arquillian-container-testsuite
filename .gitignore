@@ -3,4 +3,8 @@ target
 *.ipr
 *.iws
 .idea/
+.settings
+.eclipse
+.project
+.classpath
 
