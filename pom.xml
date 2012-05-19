@@ -65,7 +65,7 @@
 
     <profiles>
         <profile>
-            <id>eap-managed</id>
+            <id>arq-jbossas-managed</id>
 
             <activation>
                 <activeByDefault>false</activeByDefault>
@@ -93,14 +93,14 @@
         </profile>
 
         <profile>
-            <id>eap-remote</id>
+            <id>arq-jbossas-remote</id>
 
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>
 
             <properties>
-                <arquillian.launch>tomcat</arquillian.launch>
+                <arquillian.launch>jboss</arquillian.launch>
             </properties>
 
             <dependencies>
@@ -121,7 +121,7 @@
         </profile>
 
         <profile>
-            <id>ews-t6-managed</id>
+            <id>arq-tomcat6-managed</id>
 
             <activation>
                 <activeByDefault>false</activeByDefault>
@@ -151,7 +151,7 @@
         </profile>
 
         <profile>
-            <id>ews-t6-remote</id>
+            <id>arq-tomcat6-remote</id>
 
             <activation>
                 <activeByDefault>false</activeByDefault>
@@ -181,7 +181,7 @@
         </profile>
 
         <profile>
-            <id>ews-t5-managed</id>
+            <id>arq-tomcat5-managed</id>
 
             <activation>
                 <activeByDefault>false</activeByDefault>
@@ -210,6 +210,5 @@
             </modules>
         </profile>
     </profiles>
-
 
 </project>
