@@ -7,7 +7,7 @@
     <artifactId>package-cdi-war</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>CDI WAR</name>
+    <name>Arquillian Container Testsuite: CDI WAR</name>
 
     <url>http://jboss.org/jbossas</url>
     <licenses>
@@ -24,6 +24,9 @@
         <!-- [WARNING] Using platform encoding (UTF-8 actually) to copy filtered
             resources, i.e. build is platform dependent! -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- versioning -->
+        <version.org.jboss.spec.javaee6>3.0.0.Final</version.org.jboss.spec.javaee6>
     </properties>
 
     <dependencyManagement>
@@ -39,7 +42,7 @@
             <dependency>
                 <groupId>org.jboss.spec</groupId>
                 <artifactId>jboss-javaee-6.0</artifactId>
-                <version>3.0.0.Beta1</version>
+                <version>${version.org.jboss.spec.javaee6}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
