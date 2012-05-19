@@ -35,6 +35,7 @@
         <module>package-cdi-war</module>
         <module>package-ejb-war</module>
         <module>package-cdi-ear</module>
+        <module>package-plain-war</module>
     </modules>
 
     <build>
